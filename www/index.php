@@ -100,8 +100,7 @@
                         <div class="pic"></div>
                         <h3 class="text_center mt-1"><strong>Etape 2 : </strong>Je configure le CMS</h3>
                         <p class="description text_justify mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
-                            facilis. Reiciendis!</p>
+                            quibusdam ducimus excepturi accusantium atque fugiat dfsf sdfs df</p>
 
 
                     </div>
@@ -111,7 +110,7 @@
 
                         <div class="pic"></div>
                         <h3 class="text_center mt-1"><strong>Etape 3 : </strong>Je valide mon compte</h3>
-                        <p class="description text_justify mt-1">Une fois vos informations renseigné vous recevrez un mail de confirmaton. </p>
+                        <p class="description text_justify mt-1">Une fois vos informations renseignées, vous recevrez ensuite un mail de confirmaton.Celui ci vous permettra de valider votre identité. </p>
 
 
                     </div>
@@ -120,10 +119,8 @@
                     <div class="step mt-4">
 
                         <div class="pic"></div>
-                        <h3 class="text_center mt-1"><strong>Etape 4 : </strong>Je configure le CMS</h3>
-                        <p class="description text_justify mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
-                            facilis. Reiciendis!</p>
+                        <h3 class="text_center mt-1"><strong>Etape 4 : </strong>J'Utilise le CMS</h3>
+                        <p class="description text_justify mt-1">Félicitation vous pouvez dès à présent personnaliser gérer et administrer votre site. Faite ce que bon vous semble !</p>
 
                     </div>
 
