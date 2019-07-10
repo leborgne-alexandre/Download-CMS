@@ -327,6 +327,10 @@
   text-align: center;
 }
 
+.text_justify {
+  text-align: justify;
+}
+
 .no_list {
   list-style-type: none;
 }

@@ -88,10 +88,8 @@
                     <div class="step mt-4">
 
                         <div class="pic"></div>
-                        <h3 class="text_center mt-1"><strong>Etape 1: </strong>Je configure le CMS</h3>
-                        <p class="description mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
-                            facilis. Reiciendis!</p>
+                        <h3 class="text_center  mt-1"><strong>Etape 1: </strong>Je renseigne les informations</h3>
+                        <p class="description text_justify mt-1 ">Pour l'étape 1 vous devez renseigner la configuration du serveur et vos indentifiants qui vous permettrons par la suite de prendre le controle de votre site.</p>
 
 
                     </div>
@@ -101,7 +99,7 @@
 
                         <div class="pic"></div>
                         <h3 class="text_center mt-1"><strong>Etape 2 : </strong>Je configure le CMS</h3>
-                        <p class="description mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        <p class="description text_justify mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
                             quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
                             facilis. Reiciendis!</p>
 
@@ -112,10 +110,8 @@
                     <div class="step mt-4">
 
                         <div class="pic"></div>
-                        <h3 class="text_center mt-1"><strong>Etape 3 : </strong>Je configure le CMS</h3>
-                        <p class="description mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
-                            facilis. Reiciendis!</p>
+                        <h3 class="text_center mt-1"><strong>Etape 3 : </strong>Je valide mon compte</h3>
+                        <p class="description text_justify mt-1">Une fois vos informations renseigné vous recevrez un mail de confirmaton. </p>
 
 
                     </div>
@@ -125,10 +121,9 @@
 
                         <div class="pic"></div>
                         <h3 class="text_center mt-1"><strong>Etape 4 : </strong>Je configure le CMS</h3>
-                        <p class="description mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        <p class="description text_justify mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
                             quibusdam ducimus excepturi accusantium atque fugiat, sapiente perspicia reiciendis debitis
                             facilis. Reiciendis!</p>
-
 
                     </div>
 
