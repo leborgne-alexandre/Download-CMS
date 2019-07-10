@@ -54,7 +54,7 @@
 
       img{
 
-        max-width: 600px;
+        max-width: 50%;
         margin: auto;
         width: 100%;
         height: auto;
@@ -64,7 +64,6 @@
       .fact {
         display: flex;
         padding: 30px;
-        width: 1400px;
         margin: auto;
 
 
@@ -72,6 +71,7 @@
           text-align: justify;
           margin: auto;
           padding: 30px;
+          width: 50%;
         }
       }
     }

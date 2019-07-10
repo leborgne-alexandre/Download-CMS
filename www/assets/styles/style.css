@@ -565,7 +565,7 @@ body .main_content .section h2 {
 }
 
 .content .product img {
-  max-width: 600px;
+  max-width: 50%;
   margin: auto;
   width: 100%;
   height: auto;
@@ -576,7 +576,6 @@ body .main_content .section h2 {
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
-  width: 1400px;
   margin: auto;
 }
 
@@ -584,6 +583,7 @@ body .main_content .section h2 {
   text-align: justify;
   margin: auto;
   padding: 30px;
+  width: 50%;
 }
 
 .content .how_it_work {
