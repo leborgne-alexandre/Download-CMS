@@ -1,0 +1,55 @@
+.team {
+    background-color: $purple-darken;
+
+  
+    .card {
+      background-color: white;
+      color: $metal;
+      // margin: 30px 25px 30px 30px;
+      padding: 30px;
+      width: 350px;
+      border: 1px thin $metal;
+      border-radius: 30px;
+      margin: auto;
+      margin-bottom: 30px;
+
+      .pic {
+        background-image: url("../images/lion.png");
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 150px;
+        margin: auto;
+      }
+
+      .name {
+        font-weight: 700;
+        text-align: center;
+        color: $purple-cool;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+
+      .status {
+        text-align: center;
+        letter-spacing: 2px;
+      }
+
+      .description {
+        text-align: justify;
+      }
+
+      .social_icon {
+        font-size: 50px;
+        margin: auto;
+        margin-top: 20px;
+        transition: 0.5s;
+        color: grey;
+
+        &:hover {
+          color: $purple-cool;
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }

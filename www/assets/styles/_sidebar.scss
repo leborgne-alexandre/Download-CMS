@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: $purple-dark;
+  width: 20%;
+  text-align: right;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+
+
+  ul{ 
+
+    margin-top: 15rem;
+
+
+    li{
+      font-size: 20px;
+      line-height: 50px;
+   
+      a{ 
+
+        margin-right: 30px;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+
+
+      }
+
+      :hover{
+        padding: 20px;
+        width: 100%;
+        display: block;
+        background-color: $metal;
+      
+      }
+    }
+
+  }
+}

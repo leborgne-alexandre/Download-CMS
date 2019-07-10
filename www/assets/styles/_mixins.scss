@@ -1,0 +1,94 @@
+@mixin reponsive700 {
+  @media only screen and (max-width: 960px) {
+    display: block;
+
+
+    .content{ 
+
+      width: 100%; 
+
+    }
+
+
+
+    .accueil {
+      min-height: 600px;
+
+      .fix-wrap{
+
+        flex-wrap: wrap;
+
+      }
+    }
+
+    .step {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border-radius: 0px;
+    }
+
+    .card {
+      width: 90%;
+    }
+
+    .section {
+      h2 {
+        padding: 50px;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+
+    .content {
+      padding: 0;
+      margin: 0;
+
+      .accueil {
+
+        padding: 20px;
+        img {
+          margin-top: 30px;
+        }
+
+        .introduction{
+
+          text-align: center;
+
+            .p{
+
+                line-height: 30px;
+            }
+
+        }
+
+
+      }
+
+      .fact {
+        padding: 5px;
+
+        .fact-text {
+          padding: 5px;
+        }
+      }
+
+      .introduction {
+        margin: 0;
+        width: 100%;
+        margin: auto;
+      }
+    }
+
+    .sidebar {
+      width: 100%;
+      text-align: center;
+      position: inherit;
+      ul {
+        margin: 0;
+      }
+    }
+  }
+}
+

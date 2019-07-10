@@ -1,0 +1,35 @@
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+}
+
+body{
+
+  height: 100%;
+
+  .main_content {
+    display: flex;
+    color: white;
+
+    @include reponsive700();
+
+    .section {
+  
+  
+      h2 {
+        padding: 50px;
+        font-size: 28px;
+        font-weight: 700;
+      }
+    }
+  
+  
+  
+  }
+
+
+}
+

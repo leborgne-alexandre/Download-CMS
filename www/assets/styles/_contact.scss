@@ -1,0 +1,38 @@
+
+    .contact {
+        background-color: $metal-darker;
+  
+        .mail_to {
+  
+          margin: auto;
+          width: 400px;
+          text-align: center;
+  
+  
+          h3{
+  
+            font-size: 24px;
+  
+          }
+  
+          .mail {
+            cursor: pointer;
+           
+  
+            a {
+              border: 2px solid white;
+              border-radius: 10px;
+              padding: 20px;
+              display: inline-block;
+              font-size: 24px;
+              transition: 0.5s;
+  
+              &:hover {
+                color: black;
+                background-color: $orange;
+              }
+            }
+          }
+        }
+      }
+   
