@@ -17,8 +17,8 @@ if(!empty($_GET["file"])){
 
 
         readfile($filepath);
-        exit; 
 
+        exit; 
 
     }
 

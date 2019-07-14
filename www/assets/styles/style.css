@@ -447,6 +447,14 @@ body .main_content {
   body .main_content {
     display: block;
   }
+  body .main_content .down {
+    line-height: 0;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    padding: 0;
+    border: 0;
+  }
   body .main_content .content {
     width: 100%;
   }
@@ -492,7 +500,11 @@ body .main_content {
     padding: 5px;
   }
   body .main_content .content .fact .fact-text {
-    padding: 5px;
+    padding: 6px;
+    width: auto;
+    min-width: 0;
+    display: table;
+    text-align: center;
   }
   body .main_content .content .introduction {
     margin: 0;
@@ -556,6 +568,10 @@ body .main_content .section h2 {
   color: black;
 }
 
+.content .accueil .introduction .down {
+  border: none;
+}
+
 .content .accueil .introduction .dl {
   text-transform: uppercase;
 }
@@ -592,7 +608,7 @@ body .main_content .section h2 {
 
 .content .how_it_work .flex .step {
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: #353b48;
   width: 400px;
   border: transparent;
   border-radius: 20px;
@@ -601,7 +617,31 @@ body .main_content .section h2 {
 }
 
 .content .how_it_work .flex .step .pic {
-  background-image: url("../images/wallhaven-666357.jpg");
+  background-image: url("../images/storage.jpeg");
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+.content .how_it_work .flex .step .pic1 {
+  background-image: url("../images/etape1.png");
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+.content .how_it_work .flex .step .pic2 {
+  background-image: url("../images/validation.jpeg");
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+.content .how_it_work .flex .step .pic3 {
+  background-image: url("../images/begin-min.png");
   background-size: cover;
   width: 400px;
   height: 200px;
@@ -646,7 +686,7 @@ body .main_content .section h2 {
 }
 
 .team .card .description {
-  text-align: justify;
+  text-align: center;
 }
 
 .team .card .social_icon {

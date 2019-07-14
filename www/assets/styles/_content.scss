@@ -34,6 +34,14 @@
             color: black;
           }
         }
+
+
+        .down{
+
+          border: none;
+
+        }
+
         .dl{
 
 
@@ -72,6 +80,7 @@
           margin: auto;
           padding: 30px;
           width: 50%;
+
         }
       }
     }
@@ -90,7 +99,34 @@
           margin-bottom: 30px;
 
           .pic {
-            background-image: url("../images/wallhaven-666357.jpg");
+            background-image: url("../images/storage.jpeg");
+            background-size: cover;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+          }
+
+
+          .pic1 {
+            background-image: url("../images/etape1.png");
+            background-size: cover;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+          }
+
+
+          .pic2 {
+            background-image: url("../images/validation.jpeg");
+            background-size: cover;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+          }
+
+
+          .pic3 {
+            background-image: url("../images/begin-min.png");
             background-size: cover;
             width: 400px;
             height: 200px;

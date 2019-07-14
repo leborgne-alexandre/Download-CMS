@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <div class="main_content">
         <div class="sidebar">
             <header>
@@ -34,9 +33,10 @@
                     <img class="" src="/assets/images/main_logo_fryzzer.png" alt="logo de fryzzer cms">
                     <p class="">Fryzzer est un CMS qui vous permettra de déployer un site personnalisable.</p>
                     <div class="fix-wrap">
-                    <a class="supress_a scroll-to dl mr-3" href="index.php?file=Archive.zip">Télécharger</a>   <a class="supress_a scroll-to"  href="#app">En savoir plus</a>
+                    <a class="supress_a scroll-to dl mr-2" href="index.php?file=Archive.zip">Télécharger</a>   <a class="supress_a scroll-to down"  href="#app">En savoir plus</a>
                     
                     <?php include"download.php";  ?> 
+
                 </div>
                 </div>
 
@@ -50,7 +50,7 @@
 
                 <div class="fact flex">
 
-                    <img src="assets/images/wallhaven-767749.png" alt="">
+                    <img src="assets/images/accueil.png" alt="">
 
                     <div class="fact-text">
                         <h2>Une solution efficace</h2>
@@ -62,11 +62,11 @@
 
                 <div class="fact flex">
 
-                    <img  src="assets/images/wallhaven-767749.png" alt="">
+                    <img  src="assets/images/power.png" alt="">
 
                     <div class="fact-text">
-                        <h2>Une solution efficace</h2>
-                        <p>Intuitif et épuré notre outils est simple d’utilisation, et répondra à vos besoins.</p>
+                        <h2>Des fonctionnalités puissantes</h2>
+                        <p>Personnalizez votre site grace à notre éditeur intégré, ou administrer les utilisateurs présent sur votre site.</p>
                     </div>
 
                 </div>
@@ -88,8 +88,8 @@
                     <div class="step mt-4">
 
                         <div class="pic"></div>
-                        <h3 class="text_center  mt-1"><strong>Etape 1: </strong>Je renseigne les informations</h3>
-                        <p class="description text_justify mt-1 ">Pour l'étape 1 vous devez renseigner la configuration du serveur et vos indentifiants qui vous permettrons par la suite de prendre le controle de votre site.</p>
+                        <h3 class="text_center  mt-1"><strong>Etape 1: </strong>Je créer ma base de donnée</h3>
+                        <p class="description text_justify mt-1 ">Pour l'étape 1 vous devez créer et donner un nom à  votre base de donnée, toutes les informations seront automatiquement géneré par la suite.</p>
 
 
                     </div>
@@ -97,10 +97,9 @@
 
                     <div class="step mt-4">
 
-                        <div class="pic"></div>
-                        <h3 class="text_center mt-1"><strong>Etape 2 : </strong>Je configure le CMS</h3>
-                        <p class="description text_justify mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            quibusdam ducimus excepturi accusantium atque fugiat dfsf sdfs df</p>
+                        <div class="pic1"></div>
+                        <h3 class="text_center mt-1"><strong>Etape 2 : </strong>Je renseigne les informations</h3>
+                        <p class="description text_justify mt-1">Pour l'étape 2 vous devez renseigner la configuration du serveur et vos indentifiants qui vous permettrons par la suite de prendre le controle de votre site.</p>
 
 
                     </div>
@@ -108,7 +107,7 @@
 
                     <div class="step mt-4">
 
-                        <div class="pic"></div>
+                        <div class="pic2"></div>
                         <h3 class="text_center mt-1"><strong>Etape 3 : </strong>Je valide mon compte</h3>
                         <p class="description text_justify mt-1">Une fois vos informations renseignées, vous recevrez ensuite un mail de confirmaton.Celui ci vous permettra de valider votre identité. </p>
 
@@ -118,7 +117,7 @@
 
                     <div class="step mt-4">
 
-                        <div class="pic"></div>
+                        <div class="pic3"></div>
                         <h3 class="text_center mt-1"><strong>Etape 4 : </strong>J'Utilise le CMS</h3>
                         <p class="description text_justify mt-1">Félicitation vous pouvez dès à présent personnaliser gérer et administrer votre site. Faite ce que bon vous semble !</p>
 
@@ -144,15 +143,13 @@
                         <h3 class="status">
                             < Developper />
                         </h3>
-                        <p class="description mt-3">Lorem ipsum doloconsequuntur laboriosam
-                            dolore veniam, tempore culpa et natus perspiciatis ducimus animi corporis beatae,
-                            nesciunt nemo quasi nisi impedit, error quis veritatis.</p>
+                        <p class="description mt-3">Git Master</p>
 
                         <div class="flex">
 
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-linkedin"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-twitter-square"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-github-square"></i></a>
+                            <a class="supress_a social_icon" href="https://www.linkedin.com/in/paul-taitinger-76abb1186/"><i class="fab fa-linkedin"></i></a>
+                     
+                            <a class="supress_a social_icon" href="https://github.com/PaulTAI"><i class="fab fa-github-square"></i></a>
 
                         </div>
 
@@ -167,15 +164,13 @@
                         <h3 class="status">
                             < Developper />
                         </h3>
-                        <p class="description mt-3">Lorem ipsum doloconsequuntur laboriosam
-                            dolore veniam, tempore culpa et natus perspiciatis ducimus animi corporis beatae,
-                            nesciunt nemo quasi nisi impedit, error quis veritatis.</p>
+                        <p class="description mt-3">Balanced Guy</p>
 
                         <div class="flex">
 
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-linkedin"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-twitter-square"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-github-square"></i></a>
+                            <a class="supress_a social_icon" href="https://www.linkedin.com/in/theo-faure-116b6b165/"><i class="fab fa-linkedin"></i></a>
+                     
+                            <a class="supress_a social_icon" href="https://github.com/theofaure77"><i class="fab fa-github-square"></i></a>
 
                         </div>
 
@@ -190,15 +185,13 @@
                         <h3 class="status">
                             < Developper />
                         </h3>
-                        <p class="description mt-3">Lorem ipsum doloconsequuntur laboriosam
-                            dolore veniam, tempore culpa et natus perspiciatis ducimus animi corporis beatae,
-                            nesciunt nemo quasi nisi impedit, error quis veritatis.</p>
+                        <p class="description mt-3">Ajax/Php Addict</p>
 
                         <div class="flex">
 
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-linkedin"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-twitter-square"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-github-square"></i></a>
+                            <a class="supress_a social_icon" href="https://www.linkedin.com/in/lucas-estrade-059559153/"><i class="fab fa-linkedin"></i></a>
+                     
+                            <a class="supress_a social_icon" href="https://github.com/lucasestrade"><i class="fab fa-github-square"></i></a>
 
                         </div>
 
@@ -212,15 +205,13 @@
                         <h3 class="status">
                             < Developper />
                         </h3>
-                        <p class="description mt-3">Lorem ipsum doloconsequuntur laboriosam
-                            dolore veniam, tempore culpa et natus perspiciatis ducimus animi corporis beatae,
-                            nesciunt nemo quasi nisi impedit, error quis veritatis.</p>
+                        <p class="description mt-3">Creator</p>
 
                         <div class="flex">
 
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-linkedin"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-twitter-square"></i></a>
-                            <a class="supress_a social_icon" href="#"><i class="fab fa-github-square"></i></a>
+                            <a class="supress_a social_icon" href="https://www.linkedin.com/in/alexandre-le-borgne-402007130/"><i class="fab fa-linkedin"></i></a>
+                     
+                            <a class="supress_a social_icon" href="https://github.com/leborgne-alexandre"><i class="fab fa-github-square"></i></a>
 
                         </div>
 

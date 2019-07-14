@@ -2,6 +2,16 @@
   @media only screen and (max-width: 960px) {
     display: block;
 
+    .down{ 
+
+    line-height: 0;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    padding: 0;
+    border: 0;
+
+    }
 
     .content{ 
 
@@ -68,9 +78,15 @@
 
       .fact {
         padding: 5px;
+        
 
         .fact-text {
-          padding: 5px;
+          padding: 6px;
+          width: auto;
+          min-width: 0;
+          display:table;
+          text-align: center;
+       
         }
       }
 
